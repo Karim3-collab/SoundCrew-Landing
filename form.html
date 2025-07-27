@@ -1,0 +1,86 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>SoundCrew | Waitlist</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Helvetica Neue', sans-serif;
+      background-color: #000;
+      color: #fff;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+      padding: 2rem;
+      position: relative;
+      text-align: center;
+    }
+    img.logo {
+      position: absolute;
+      bottom: 20px;
+      right: 20px;
+      width: 100px;
+      opacity: 0.9;
+    }
+    h1 {
+      font-size: 2.5rem;
+      margin-bottom: 10px;
+      color: #00bfff;
+    }
+    p.subtext {
+      font-size: 1.2rem;
+      color: #ccc;
+      margin-bottom: 30px;
+    }
+    form {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      width: 100%;
+      max-width: 400px;
+    }
+    input[type="email"] {
+      padding: 0.8rem;
+      border: none;
+      border-radius: 5px;
+      width: 100%;
+      margin-bottom: 15px;
+      font-size: 1rem;
+    }
+    button {
+      padding: 0.8rem 1.5rem;
+      font-size: 1rem;
+      color: #000;
+      background-color: #00bfff;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+    button:hover {
+      background-color: #0099cc;
+    }
+    .footer {
+      margin-top: 3rem;
+      font-size: 0.8rem;
+      color: #555;
+    }
+  </style>
+</head>
+<body>
+  <img src="soundcrew-logo-clean.png" alt="SoundCrew Logo" class="logo"/>
+  <h1>Rapper x Producer</h1>
+  <p class="subtext">Build tracks. Make hits. Collab made easy.</p>
+
+  <form action="success.html" method="POST">
+    <input type="email" name="email" placeholder="Enter your email" required />
+    <button type="submit">Join the Waitlist</button>
+  </form>
+
+  <div class="footer">Launching soon on iOS & Android 🚀</div>
+</body>
+</html>
